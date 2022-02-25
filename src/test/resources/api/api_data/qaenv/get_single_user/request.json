@@ -1,0 +1,9 @@
+{
+  "base_path": "{{context_path}}/users/2",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "request": {
+    "name": "get single user"
+  }
+}

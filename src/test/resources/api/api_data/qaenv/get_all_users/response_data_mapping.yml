@@ -1,0 +1,7 @@
+GetAllUserAPISelectedElementsExpectedData:
+  'data.id[0]': '7'
+  'data.email[0]': 'michael.lawson@reqres.in'
+  'data.first_name[0]': 'Michael'
+  'data.last_name[0]': 'Lawson'
+  'support.url': 'https://reqres.in/#support-heading'
+  'support.text': 'To keep ReqRes free, contributions towards server costs are appreciated!'

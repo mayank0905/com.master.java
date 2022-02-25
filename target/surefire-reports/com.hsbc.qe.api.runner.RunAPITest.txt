@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hsbc.qe.api.runner.RunAPITest
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.585 s - in com.hsbc.qe.api.runner.RunAPITest

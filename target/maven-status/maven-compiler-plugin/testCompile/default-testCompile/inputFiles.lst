@@ -1,0 +1,16 @@
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/constants/Entity.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/enums/ApiContext.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/ui/pageobjects/LoginPage.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/TestManagerContext.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/constants/FilePaths.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/Hooks.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/ui/testrunners/RunUITest.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/util/ApiUtilManager.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/CommonThenTestSteps.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/CommonGivenTestSteps.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/ui/stepdefinitions/LoginSteps.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/TestScenarioContext.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/runner/RunAPITest.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/constants/Headers.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/ui/stepdefinitions/Hooks.java
+/Users/maypanwa/Documents/HSBC/GIT/hsbc-selenium-restassured/src/test/java/com/hsbc/qe/api/stepdefs/CommonWhenTestSteps.java

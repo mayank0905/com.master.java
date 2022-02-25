@@ -1,0 +1,2870 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:54:02.816Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1027000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get users Status",
+        "description": "",
+        "id": "list-users;get-users-status;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"get_single_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_single_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1729000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:06.157Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Get users Status",
+        "description": "",
+        "id": "list-users;get-users-status;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"get_all_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_all_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 740000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:06.926Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Get users Status",
+        "description": "",
+        "id": "list-users;get-users-status;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"user_not_found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user_not_found\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1455000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify response code is \"404\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"404\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:08.408Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "get user element comparison",
+        "description": "",
+        "id": "list-users;get-user-element-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have API \"get_single_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_single_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 424000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify selected elements \"GetSingleUserAPISelectedElementsExpectedData\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetSingleUserAPISelectedElementsExpectedData\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:09.472Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "get user element comparison",
+        "description": "",
+        "id": "list-users;get-user-element-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I have API \"get_all_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_all_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 611000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify selected elements \"GetAllUserAPISelectedElementsExpectedData\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetAllUserAPISelectedElementsExpectedData\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:10.223Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Get Schema comparison",
+        "description": "",
+        "id": "list-users;get-schema-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I have API \"get_single_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_single_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 383000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:11.311Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Get Schema comparison",
+        "description": "",
+        "id": "list-users;get-schema-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I have API \"get_all_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_all_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 699000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:12.059Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Get Response comparison",
+        "description": "",
+        "id": "list-users;get-response-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I have API \"get_single_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_single_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:13.587Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Get Response comparison",
+        "description": "",
+        "id": "list-users;get-response-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I have API \"get_all_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"get_all_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 597000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I call method \u0027GET\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GET\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      }
+    ],
+    "name": "List Users",
+    "description": "",
+    "id": "list-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/features/Get-users.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:54:14.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Delete User",
+        "description": "",
+        "id": "delete-users;delete-user;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"delete_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"delete_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1389000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I call method \u0027DELETE\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027DELETE\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify response code is 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      }
+    ],
+    "name": "delete Users",
+    "description": "",
+    "id": "delete-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/features/delete_user.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:54:15.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Create user status codes",
+        "description": "",
+        "id": "create-users;create-user-status-codes;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"create_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set request body for \"user_data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user_data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify response code is \"201\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"201\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:17.127Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Create user status codes",
+        "description": "",
+        "id": "create-users;create-user-status-codes;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"create_user_success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_success\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set request body for \"registerdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"registerdata\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1471000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify response code is \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:18.614Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Create user status codes",
+        "description": "",
+        "id": "create-users;create-user-status-codes;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"create_user_unsuccess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_unsuccess\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set request body for \"register-unsuccesfull\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"register-unsuccesfull\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify response code is \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:19.336Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "create user element comparison",
+        "description": "",
+        "id": "create-users;create-user-element-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I have API \"create_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I set request body for \"user_data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user_data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 737000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify selected elements \"CreateUsers\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CreateUsers\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:20.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "create user element comparison",
+        "description": "",
+        "id": "create-users;create-user-element-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I have API \"create_user_success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_success\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I set request body for \"registerdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"registerdata\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 850000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify selected elements \"RegisterationAPISelectedElementsExpectedData\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RegisterationAPISelectedElementsExpectedData\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:21.004Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "create user element comparison",
+        "description": "",
+        "id": "create-users;create-user-element-comparison;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I have API \"create_user_unsuccess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_unsuccess\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I set request body for \"register-unsuccesfull\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"register-unsuccesfull\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 750000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify selected elements \"RegisterUnsucessfullAPISelectedElementsExpectedData\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"RegisterUnsucessfullAPISelectedElementsExpectedData\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:21.794Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "user Schema comparison",
+        "description": "",
+        "id": "create-users;user-schema-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I have API \"create_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I set request body for \"user_data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user_data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1424000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:23.243Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "user Schema comparison",
+        "description": "",
+        "id": "create-users;user-schema-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I have API \"create_user_success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_success\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I set request body for \"registerdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"registerdata\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:23.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "user Schema comparison",
+        "description": "",
+        "id": "create-users;user-schema-comparison;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I have API \"create_user_unsuccess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_unsuccess\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I set request body for \"register-unsuccesfull\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"register-unsuccesfull\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 685000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:24.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "users Response comparison",
+        "description": "",
+        "id": "create-users;users-response-comparison;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I have API \"create_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I set request body for \"user_data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user_data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 781000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:25.403Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "users Response comparison",
+        "description": "",
+        "id": "create-users;users-response-comparison;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I have API \"create_user_success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_success\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I set request body for \"registerdata\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"registerdata\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1286000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-10T15:54:26.701Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "users Response comparison",
+        "description": "",
+        "id": "create-users;users-response-comparison;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I have API \"create_user_unsuccess\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"create_user_unsuccess\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I set request body for \"register-unsuccesfull\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"register-unsuccesfull\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1404000000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I call method \u0027POST\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027POST\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          }
+        ]
+      }
+    ],
+    "name": "Create Users",
+    "description": "",
+    "id": "create-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/features/post-users.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-10T15:54:28.116Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Update User",
+        "description": "",
+        "id": "update-users;update-user;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have API \"update_users\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"update_users\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iHaveAPI(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I set content-type as JSON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JSON",
+                  "offset": 22
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.content_Type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I set request body for \"updateUsers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"updateUsers\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonGivenTestSteps.iSetRequestBodyAs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I call method \u0027PUT\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027PUT\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iCallMethodPOST(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get the response",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonWhenTestSteps.iGetTheResponse()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify response code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponseCodeIs(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response schema",
+            "match": {
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_verify_the_response_schema()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify selected elements \"UpdateUserAPISelectedElementsExpectedData\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateUserAPISelectedElementsExpectedData\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.iVerifyResponse(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I compare the expected response with the actual response with \"LENIENT\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LENIENT\"",
+                  "offset": 62
+                }
+              ],
+              "location": "com.hsbc.qe.api.stepdefs.CommonThenTestSteps.i_compare_the_expected_response_with_the_actual_response_with(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apitest"
+          },
+          {
+            "name": "@updateuser"
+          }
+        ]
+      }
+    ],
+    "name": "Update Users",
+    "description": "",
+    "id": "update-users",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/api/features/update.feature",
+    "tags": []
+  }
+]

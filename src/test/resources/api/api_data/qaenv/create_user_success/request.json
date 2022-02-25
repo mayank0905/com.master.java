@@ -1,0 +1,9 @@
+{
+  "base_path": "{{context_path}}/register",
+  "header": {
+    "Content-Type": "application/json"
+  },
+  "request": {
+    "name": "create user"
+  }
+}
